@@ -11,13 +11,13 @@ import java.util.Date;
 @NoArgsConstructor
 public class User {
 
-    private String id;// 用户唯一表示
-    private String username;// 用户名(登录账号)
-    private String password;// 密码(通常加密存储)
-    private String nickname;// 昵称(展示博客前台)
-    private String email;// 电子邮箱
-    private String avatar;// 头像路径
-    private String introduction;// 个人简介
-    private Date createTime;// 注册时间
-    private Date updateTime;// 最后更新时间
+    private String userId;// 用户唯一表示
+    private String userUsername;// 用户名(登录账号)
+    private String userPassword;// 密码(通常加密存储)
+    private String userNickname;// 昵称(展示博客前台)
+    private String userEmail;// 电子邮箱
+    private String userAvatar;// 头像路径
+    private String userIntroduction;// 个人简介
+    private Date userCreateTime;// 注册时间
+    private Date userUpdateTime;// 最后更新时间
 }

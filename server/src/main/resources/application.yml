@@ -1,5 +1,11 @@
 spring:
   application:
     name: MyBlog
+  datasource:
+    url: jdbc:mysql://localhost:3306/myblog?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: root12345678okk
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
 server:
   port: 8080
